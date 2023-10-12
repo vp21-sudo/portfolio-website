@@ -1,0 +1,21 @@
+---
+import { Image } from "astro:assets";
+---
+
+<nav class="p-2 flex justify-between items-center w-full h-fit bg-teal-500 px-5">
+  <div class="flex justify-start items-center w-full h-full rounded-2xl">
+    <a href="/icon" class=" flex justify-start items-center" transition:name="test2"
+      ><Image
+        width={12}
+        height={12}
+        src="/images/VP.png"
+        alt="VP Logo"
+        class="w-12 h-12s rounded-2xl"
+      />
+      <!-- <h1 class="mx-2 text-5xl text-center pb-2 font-bold">VP</h1> -->
+      </a>
+  </div>
+  <div class="flex px-3 justify-around items-center">
+    <a href="/contact" >Contact</a>
+  </div>
+</nav>

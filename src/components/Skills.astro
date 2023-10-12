@@ -1,0 +1,102 @@
+---
+import { Image } from "astro:assets";
+import NextJS from "./Icons/NestJS.astro";
+import AstroLogo from "./Icons/AstroLogo.astro";
+import ReactLogo from "./Icons/ReactLogo.astro";
+import FlutterIcon from "./Icons/FlutterIcon.astro";
+import TailwindIcon from "./Icons/TailwindIcon.astro"
+import BoostrapIcon from "./Icons/BootstrapIcon.astro";
+import MysqlIcon from "./Icons/MysqlLogo.astro";
+import AwsIcon from "./Icons/AwsIcon.astro";
+---
+
+<div
+  class="flex flex-wrap justify-around items-center mt-10 w-full"
+>
+  <h1 class="w-full text-center text-teal-400 md:text-6xl text-3xl font-semibold">
+    Skills
+  </h1>
+  <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 p-8">
+    <div class="w-full h-full border-4 text-slate-900 p-3 rounded-xl shadow-slate-600 shadow-2xl bg-teal-500 border-teal-900 hover:scale-105 transition-transform duration-300 ease-in-out">
+      <div class="w-full flex justify-center items-center">
+        <h1 class="md:text-4xl text-2xl font-medium text-center">Next JS</h1>
+        <a href="https://nextjs.org/" class="mt-2 ms-5"><NextJS /></a>
+      </div>
+      <p class="md:text-2xl text-md t text-center mt-2">
+        Next.js is a React framework for building full-stack web applications.
+        You use React Components to build user interfaces, and Next.js for
+        additional features and optimizations.
+      </p>
+    </div>
+    <div class="w-full h-full border-4 text-slate-900 p-3 rounded-xl shadow-slate-600 shadow-2xl bg-teal-500 border-teal-900 hover:scale-105 transition-transform duration-300 ease-in-out">
+      <div class="w-full flex justify-center items-center">
+        <h1 class="md:text-4xl text-2xl font-medium text-center">Astro</h1>
+        <a href="https://astro.build/" class="mt-2 ms-5"><AstroLogo /></a>
+      </div>
+      <p class="md:text-2xl text-md t text-center mt-2">
+        Astro is an open-source web framework that generates web applications.
+        It's designed to create fast and efficient websites and web
+        applications.
+      </p>
+    </div>
+    <div class="w-full h-full border-4 text-slate-900 p-3 rounded-xl shadow-slate-600 shadow-2xl bg-teal-500 border-teal-900 hover:scale-105 transition-transform duration-300 ease-in-out">
+      <div class="w-full flex justify-center items-center">
+        <h1 class="md:text-4xl text-2xl font-medium text-center">React</h1>
+        <a href="https://astro.build/" class="mt-2 ms-5"><ReactLogo /></a>
+      </div>
+      <p class="md:text-2xl text-md t text-center mt-2">
+        React is a JavaScript library for building UI. It is used to create
+        interactive UI and web applications quickly and efficiently with less
+        code than you would with vanilla JavaScript.
+      </p>
+    </div>
+    <div class="w-full h-full border-4 text-slate-900 p-3 rounded-xl shadow-slate-600 shadow-2xl bg-teal-500 border-teal-900 hover:scale-105 transition-transform duration-300 ease-in-out">
+      <div class="w-full flex justify-center items-center">
+        <h1 class="md:text-4xl text-2xl font-medium text-center">Flutter</h1>
+        <a href="https://flutter.dev/" class="mt-2 ms-5"><FlutterIcon /></a>
+      </div>
+      <p class="md:text-2xl text-md t text-center mt-2">
+        Flutter is a free, open-source software development kit (SDK) created by
+        Google. Flutter uses a single codebase to create apps with attractive
+        and functional user interfaces.
+      </p>
+    </div>
+    <div class="w-full h-full border-4 text-slate-900 p-3 rounded-xl shadow-slate-600 shadow-2xl bg-teal-500 border-teal-900 hover:scale-105 transition-transform duration-300 ease-in-out">
+        <div class="w-full flex justify-center items-center">
+          <h1 class="md:text-4xl text-2xl font-medium text-center">Tailwind CSS</h1>
+          <a href="https://tailwindcss.com/" class="mt-2 ms-5"><TailwindIcon /></a>
+        </div>
+        <p class="md:text-2xl text-md t text-center mt-2">
+            Tailwind CSS is a unique utility-first CSS framework that enables users to design web pages within their markup. Unlike Bootstrap, it doesn't provide fully styled components.
+        </p>
+      </div>
+      <div class="w-full h-full border-4 text-slate-900 p-3 rounded-xl shadow-slate-600 shadow-2xl bg-teal-500 border-teal-900 hover:scale-105 transition-transform duration-300 ease-in-out">
+        <div class="w-full flex justify-center items-center">
+          <h1 class="md:text-4xl text-2xl font-medium text-center">Bootstrap</h1>
+          <a href="https://getbootstrap.com/" class="mt-2 ms-5"><BoostrapIcon /></a>
+        </div>
+        <p class="md:text-2xl text-md t text-center mt-2">
+            Bootstrap is a free, open-source framework for creating websites and web applications. It's designed to enable responsive development of mobile-first websites. 
+
+        </p>
+      </div>
+      <div class="w-full h-full border-4 text-slate-900 p-3 rounded-xl shadow-slate-600 shadow-2xl bg-teal-500 border-teal-900 hover:scale-105 transition-transform duration-300 ease-in-out">
+        <div class="w-full flex justify-center items-center">
+          <h1 class="md:text-4xl text-2xl font-medium text-center">MySQL</h1>
+          <a href="https://www.mysql.com/" class="mt-2 ms-5"><MysqlIcon /></a>
+        </div>
+        <p class="md:text-2xl text-md t text-center mt-2">
+            MySQL, an open-source relational database system, is versatile for small projects, large websites, and enterprise solutions, facilitating structured data storage and retrieval.
+        </p>
+      </div>
+      <div class="w-full h-full border-4 text-slate-900 p-3 rounded-xl shadow-slate-600 shadow-2xl bg-teal-500 border-teal-900 hover:scale-105 transition-transform duration-300 ease-in-out">
+        <div class="w-full flex justify-center items-center">
+          <h1 class="md:text-4xl text-2xl font-medium text-center">AWS</h1>
+          <a href="https://aws.amazon.com/" class="mt-4 ms-5"><AwsIcon /></a>
+        </div>
+        <p class="md:text-2xl text-md t text-center mt-2">
+            AWS offers an extensive array of services, ranging from infrastructure essentials like compute, storage, and databases to cutting-edge technologies such as machine learning, AI, data analytics, and IoT.
+        </p>
+      </div>
+  </div>
+</div>
