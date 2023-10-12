@@ -8,7 +8,6 @@ This is a simple portfolio website built using Astro 3.0.
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [License](#license)
 
 ## Features
 
@@ -45,6 +44,6 @@ Customize the portfolio website to showcase your own projects and content. Modif
 ## Deployment
 To deploy the portfolio website, you can use your preferred hosting platform. Here are some options:
 
-Deploy to Netlify: Netlify Docs
-Deploy to Vercel: Vercel Docs
+Deploy to Netlify: [Netlify Docs](https://docs.netlify.com/)
+Deploy to Vercel: [Vercel Docs](https://vercel.com/docs)
 Remember to update the deployment settings in your chosen platform to match your repository.
